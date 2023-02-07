@@ -3,3 +3,4 @@ second line
 Third line
 Fourth line
 This line is from feature1 branch
+This line is from develop branch
