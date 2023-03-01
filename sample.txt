@@ -4,3 +4,4 @@ Third line
 Fourth line
 On branch feature-br
 nothing to commit, working tree clean
+appended text
