@@ -8,3 +8,8 @@
     "service-account2"
     ]
 }
+
+"madhu_bucket" = {
+	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com', None, None, None, None, None, None, None, None],
+	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com', None, None, None, None, None, None, None, None]
+}
