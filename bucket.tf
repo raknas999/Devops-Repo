@@ -12,3 +12,7 @@
 	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com']
 }
+"sankar_bucket" = {
+	"writer" = ['sankar.dadi@gmail.com'],
+	"reader" = ['sankar.dadi@gmail.com']
+}
