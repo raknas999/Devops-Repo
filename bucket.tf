@@ -16,3 +16,15 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"temp-bucket-1" = {
+	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com'],
+	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com']
+}
+"temp-bucket-2" = {
+	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com'],
+	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com']
+}
+"temp-bucket-3" = {
+	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com'],
+	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com']
+}
