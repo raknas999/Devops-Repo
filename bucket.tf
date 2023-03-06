@@ -16,3 +16,11 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"sankar-test-bucket" = {
+	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi-1@gmail.com'],
+	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi-1@gmail.com']
+}
+"sankar-test-bucet1" = {
+	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi-1@gmail.com'],
+	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi-1@gmail.com']
+}
