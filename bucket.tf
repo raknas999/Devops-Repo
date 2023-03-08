@@ -16,3 +16,7 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"sankar-test" = {
+	"writer" = ['dadi.sankar'],
+	"reader" = ['sankar.dadi', 'sankar.dadi']
+},
