@@ -16,3 +16,11 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"brandshop-test" = {
+	"writer" = ['sankr-write.dadi', 'sankar-write1.dadi', 'dadi.sankar'],
+	"reader" = ['sankar.dadi', 'sankar-1.dadi', 'sankar-2.dadi', 'sankar.dadi']
+},
+"aos-bucket" = {
+	"writer" = ['sankr-write.dadi', 'sankar-write1.dadi', 'dadi.sankar'],
+	"reader" = ['sankar.dadi', 'sankar-1.dadi', 'sankar-2.dadi', 'sankar.dadi']
+},
