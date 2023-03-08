@@ -16,3 +16,7 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"sample-bucket" = {
+	"writer" = ['serviceAccount:sankar@walmart.com', 'serviceAccount:bharatrh@walmart.com'],
+	"reader" = ['serviceAccount:sankar@walmart.com', 'serviceAccount:bharatrh@walmart.com']
+},
