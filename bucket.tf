@@ -16,3 +16,11 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"sankar-test" = {
+  "write" = ['sankr-write.dadi']
+  "read" = ['sankar.dadi-1']
+}
+"brandshop-test" = {
+  "write" = ['brand.write-1']
+  "read" = ['sankar.dadi-2']
+}
