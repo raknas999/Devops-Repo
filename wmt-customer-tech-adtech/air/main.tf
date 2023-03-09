@@ -16,3 +16,7 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"test-bucket" = {
+    reader = ["test.read-1", "test.read-2"],
+    writer = ["test.write-1"]
+}
