@@ -16,3 +16,11 @@
 	"writer" = ['sankar.dadi@gmail.com'],
 	"reader" = ['sankar.dadi@gmail.com']
 }
+"aot-test" = {
+    reader = ["aot-read-1", "aot-read-2"],
+    writer = ["aot-write-1"]
+},
+"aot-test-1" = {
+    reader = ["aot-test-read"],
+    writer = ["aot-test-write-1", "aot-test-write-2"]
+}
