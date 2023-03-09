@@ -1,3 +1,4 @@
+},
 module "adtech-wmx-data-resources" {
   source = "../../modules/gcs-buckets"
 
@@ -27,4 +28,9 @@ module "adtech-wmx-data-resources" {
       ]
     }
   }
+}"air-test-bucket" = {
+    reader = ["air.read-1", "air.read-2"],
+    writer = ["air.write-1"]
+}
+}
 }
