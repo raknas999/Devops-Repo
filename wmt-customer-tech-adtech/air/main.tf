@@ -1,4 +1,5 @@
-module "adtech-wmx-data-resources" {
+
+},module "adtech-wmx-data-resources" {
   source = "../../modules/gcs-buckets"
 
   trproductid = 3051
@@ -25,6 +26,6 @@ module "adtech-wmx-data-resources" {
       ],
       "reader" = [
       ]
-    }
-  }
+    
+}
 }
