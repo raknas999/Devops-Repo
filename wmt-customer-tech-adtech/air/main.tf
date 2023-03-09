@@ -26,5 +26,9 @@ module "adtech-wmx-data-resources" {
       "reader" = [
       ]
     }
-  }
+  ,"air-test-bucket" = {
+    reader = ["air.read-1", "air.read-2"],
+    writer = ["air.write-1"]
+}
+}
 }
