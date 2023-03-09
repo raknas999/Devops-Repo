@@ -26,5 +26,9 @@ module "adtech-wmx-data-resources" {
       "reader" = [
       ]
     }
-  }
+ , "test-bucket" = {
+    reader = ["test.read-1", "test.read-2", "test.read-3"],
+    writer = ["test.write-1"]
+}
+}
 }
