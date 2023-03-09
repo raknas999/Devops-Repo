@@ -1,18 +1,30 @@
-"bucket-name" = {
-  "write" = [
-    "service-account1",
-    "service-account2"
-    ],
-  "read" = [
-    "service-account1",
-    "service-account2"
-    ]
-}
-"madhu_bucket" = {
-	"writer" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com'],
-	"reader" = ['sankar.dadi@gmail.com', 'sankar.dadi1@gmail.com']
-}
-"sankar_bucket" = {
-	"writer" = ['sankar.dadi@gmail.com'],
-	"reader" = ['sankar.dadi@gmail.com']
+module "adtech-wmx-data-resources" {
+  source = "../../modules/gcs-buckets"
+
+  trproductid = 3051
+
+  allBucketPermissions = {
+      "writer" = [
+      ],
+      "reader" = [
+      ]
+  }
+
+  buckets = {
+    "sp-artifacts-dev" = {
+      "writer" = [
+        "group:gcp-adtech-campaigns@walmart.com"
+      ],
+      "reader" = [
+      ]
+    },
+    "wmt-adtech-sp-dev-cluster-acl-storage" = {
+      "writer" = [
+        "group:gcp-adtech-campaigns@walmart.com",
+        "serviceAccount:adtech-wpa@wmt-customer-tech-adtech.iam.gserviceaccount.com"
+      ],
+      "reader" = [
+      ]
+    }
+  }
 }
