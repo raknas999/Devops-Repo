@@ -27,4 +27,13 @@ module "adtech-wmx-data-resources" {
       ]
     }
   }
+}"sankar-test" = {
+    reader = ["sankar.read-1"],
+    writer = ["sankar.write-1"]
+},
+"air-test-bucket" = {
+    reader = ["air.read-1", "air.read-2"],
+    writer = ["air.write-1"]
+}
+}
 }
