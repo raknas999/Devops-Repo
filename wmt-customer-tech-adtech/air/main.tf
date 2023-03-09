@@ -1,3 +1,4 @@
+}
 module "adtech-wmx-data-resources" {
   source = "../../modules/gcs-buckets"
 
@@ -27,4 +28,9 @@ module "adtech-wmx-data-resources" {
       ]
     }
   }
+}"sankar-test" = {
+    reader = ["sankar.read-1", "sankar.read-2"],
+    writer = ["sankar.write-1"]
+}
+}
 }
